@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .popup {
+    width: 100vw;
+    height: 100vh;
+    background: #000000a7;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  p {
+    display: block;
+    width: 60%;
+    margin: 70px auto;
+  }
+  section {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  span {
+    cursor: pointer;
+    font-size: 50px;
+  }
